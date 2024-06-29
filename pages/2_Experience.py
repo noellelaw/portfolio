@@ -27,16 +27,17 @@ with st.container():
         - Principal Investigator for Conformal Autoregressive Generation for Large Language Models, in which a multi-hypothesis-based approach is leveraged to better quantify model uncertainty. 
         - Redesigned data preprocessing pipeline, improving speed by 92% and allowing for quicker downstream model development. 
         - Selected for the [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) to develop a rapid-prototype solution for a given problem during summer 2024.   
-        `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `Experiemental Design` `Docker` `Git` 
+        `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `Experimental Design` `Docker` `Git`
         """)
 with st.container():
     st.subheader("Research Assistant | [NYU DICE Lab](https://chinmayhegde.github.io/lab/)")
     st.write("*September 2022 to June 2023*")
+    # I'd add a quick line about how Triangles more efficiently analyzed
     st.markdown("""
-    - Pursued a master’s thesis in the Data, Intelligence, and Computational Engineering lab under Prof. Chinmay Hegde with a focus on vision-language (VL) models for open-vocabulary semantic segmentation of autonomous driving datasets. A meta-analysis was performed to identify impact of training dataset, common model bottlenecks, and model-accuracy-throughput trade-ff when applied in a zero-shot setting. 
+    - Pursued a master’s thesis in the Data, Intelligence, and Computational Engineering lab under Prof. Chinmay Hegde with a focus on vision-language (VL) models for open-vocabulary semantic segmentation of autonomous driving datasets. A meta-analysis was performed to identify impact of training dataset, common model bottlenecks, and model-accuracy-throughput trade-off when applied in a zero-shot setting.
     - A new visualization technique, Triangles, was implemented to more efficiently analyze model results.
-    - A context-aware region-classification architecture was designed for open-vocabulary segmentation based on issues identified in the meta-analysis. 
-    - Exploration on the inherent capabilities of denoising diffusion probablistic models to generate semantically meaningful regions.
+    - A context-aware region classification architecture was designed for open-vocabulary segmentation based on issues identified in the meta-analysis.
+    - Exploration on the inherent capabilities of denoising diffusion probabilistic models to generate semantically meaningful regions.
     `Python` `Pytorch` `AI/ML/CV` `Data Science` `Javascript` `D3` `Experiment Design`
     """)
 with st.container():
@@ -55,10 +56,11 @@ with st.container():
     with text_column:
         st.markdown("""
         - Explored use of machine learning for robotic grasping operations through use of 6-DoF deep object pose estimation, in which a one-shot deep fully convolutional neural network was used as a part of a larger system.
-        - Developed synthetic data pipeline and simulations of 3D depth cameras in ROS and NVIDIA Omniverse, including the development, training, and testing of datasets for 4 YCB objects and for a Ford custom object.
+        - Developed synthetic data pipeline and simulations of 3D depth cameras in ROS and NVIDIA Omniverse, including the development, training, and testing of datasets for 4 YCB objects for a Ford custom object.
         - Presented accomplishments to team of 30+ team, project, group members and leads.
         `NVIDIA Omniverse` ` Synthetic Data Generation` `Sim to Real` `Python` `Pytorch` `AI/ML/CV` `Data Science`
         """)
+# These next two entries read almost identically, but fine for a website
 with st.container():
     st.subheader("Embedded Computing & Robotics TA and Course Developer | [University of Virginia](https://engineering.virginia.edu/department/electrical-and-computer-engineering)")
     st.write("*January 2020 - May 2021*")
@@ -98,22 +100,22 @@ with st.container():
         `C++` `Python` `OpenCV` 
     """)
 with st.container():
-    st.subheader("Introduction to Engineering Teaching Assistant | [ASML](https://engineering.virginia.edu/)")
+    st.subheader("Introduction to Engineering Teaching Assistant | [UVA](https://engineering.virginia.edu/)")
     st.write("*August 2018 to December 2019*")
     st.markdown("""
-        - Introduction to engineering course in which I provide active instruction to 30+ students, including the development of a module for students to design and construct a solar panel.
+        - Introduction to engineering course in which I provided active instruction to 30+ students, including the development of a module for students to design and construct a solar panel.
         `Circuit design` `Matlab & Simulink` `Python` 
     """)
 with st.container():
-    st.subheader("General Physics for Engineers I, Workshop Teaching Assistant | [ASML](https://www.phys.virginia.edu/)")
+    st.subheader("General Physics for Engineers I, Workshop Teaching Assistant | [UVA](https://www.phys.virginia.edu/)")
     st.write("*May 2018 to December 2019*")
     st.markdown("""
-        - Introduction to physics lab course for general group problem solving that teaches the application of physics to real life scenario.
+        - Introduction to physics lab course for general group problem solving that teaches the application of physics to real life scenarios.
         - Provided active instruction and hosted weekly office hours to 24+ students. 
-        `Data Aquisition & Analysis` `Classical Mechanics & Thermodynamics` 
+        `Data Acquisition & Analysis` `Classical Mechanics & Thermodynamics`
     """)
 with st.container():
-    st.subheader("Virginia Aerspace Science and Technology Scholar, Human Factors Team Lead | [Virginia Space Grant Consortium](https://vsgc.odu.edu/vasts/)")
+    st.subheader("Virginia Aerospace Science and Technology Scholar, Human Factors Team Lead | [Virginia Space Grant Consortium](https://vsgc.odu.edu/vasts/)")
     st.write("*September 2015 - July 2016*")
     image_column, text_column = st.columns((1,5))
     with image_column:

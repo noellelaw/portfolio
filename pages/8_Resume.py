@@ -27,6 +27,7 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
+# This links to a random website?
 st.write("[Click here if it's blocked by your browser](https://cognitiveclass.ai/)")
 
 with open("images/resume.pdf","rb") as f:

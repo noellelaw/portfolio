@@ -23,13 +23,14 @@ with st.container():
         st.video("https://www.youtube.com/watch?v=ffMzq3NsB8U")
     with text_column:
         st.markdown("""
-        APL STEM Academy proveds an accessible, inclusive, and supportive place to learn. I am extremely passionate about ensuring STEM is a space for 
-        all and so it has been such a pleasure to volunteer at this incredible organization. 
-        - Provided active instruction to 16 middle school-aged girls in a 12 week Python for Girls II course. 
+        APL STEM Academy provides an accessible, inclusive, and supportive place to learn. I am extremely passionate when it comes to STEM as a space for
+        all, so it has been such a pleasure to volunteer at this incredible organization.
+        - Provided active instruction to 16 middle school students in a 12 week Python for Girls II course.
         - Included the development of lectures, games, and labs. 
 
         """)
 
+# I'd recommend combining the first two bullets about spreading the word / answering questions. Maybe combine them and quickly say why that is so important to do
 with st.container():
     st.subheader("Trash Talk (Waste Management) Volunteer | [JHUAPL](https://sustainability.jhu.edu/news/ask-the-green-guide-compost-on-campus/)")
     st.write("*December 2023 to Present*")
@@ -38,11 +39,11 @@ with st.container():
         st.image('images/trashtalk.png')
     with text_column:
         st.markdown("""
-        Composting has an incredible array of ecological, environmnetal and social impacts as it can create more resilient ecosystems through healthier soils. 
+        Composting has an incredible array of ecological, environmental and social impacts as it can create more resilient ecosystems through healthier soils.
         This creates an system that benefits food security, public health, and increased biodiversity. 
 
         As a Trash Talk (Waste Management) volunteer:
-        - Stood at a waste managment area during lunch and breakfast hours to inform persons where each item can be placed (trash, recycle, compost).
+        - Stood at a waste management area during lunch and breakfast hours to inform persons where each item can be placed (trash, recycle, compost).
         - Answered any questions regarding who we partnered with for composting, the differences in a commercial recycling contact and its impact, and why it is so critical items are placed in the correct bins.
         - Helped increase communication when materials changed due to supply chain issues to ensure the correct items were placed in the correct bins.
         """)
@@ -50,7 +51,7 @@ with st.container():
     st.subheader("Computers4Kids Clubhouse Volunteer | [C4K](https://c4kclubhouse.org/our-mission/)")
     st.write("*Fall 2018 to Spring 2019*")
     st.markdown("""
-    C4K aims to provide a free space and mentorship program for 6th-12th graders to explore their passions in science, technology, engineering, arts, and math (STEAM).
+    C4K aims to provide a free space and mentorship program for 6th-12th graders to explore their passions in science, technology, engineering, arts, and math (STEM).
     
     As a C4K volunteer:
     - Designed modules, such as introduction to digital signal processing (DSP), that would provide a friendly and digestible way to learn a new concept. Modules included active-learning projects. 
