@@ -1,0 +1,6 @@
+Pillow
+Requests
+streamlit
+streamlit_lottie
+streamlit_timeline
+altair==4.2.2
