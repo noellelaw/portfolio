@@ -15,12 +15,13 @@ st.set_page_config(
 )
 #local_css("style/style.css")
 st.header("AWARDS & HONORS")
+# Wat was your solution sir?
 with st.container():
     st.subheader("City of Tomorrow High Achiever Award | [Ford Motor Company](https://corporate.ford.com/home.html)")
     st.write("*Received Summer 2022*")
     st.markdown("""
     A three week challenge in which 244 interns joined a forward thinking dialogue about the future of Ford and how it can build a better world. 
-    Our team of 4 persons designed and submitted a solution in Future Mobility that recieved the high achiever award.
+    Our team of 4 persons designed and submitted a solution in Future Mobility that received the high achiever award.
     """)
 
 with st.container():
@@ -32,8 +33,8 @@ with st.container():
     with text_column:
         st.markdown("""
         Zachary Hicks, Jason Ashley, Eleanor Ozer and I undertook the "Robotany" that integrates embedded systems interfacing, house plant physiology, 
-        robotics and machine vision, and earned the Louis T. Rader Chairperson's Award for Best Capstone. The a cybernetic plant to track moisture levels, monitor growth, 
-        and move based on its lighting needs.
+        robotics and machine vision, and earned the Louis T. Rader Chairperson's Award for Best Capstone. This cybernetic plant autonomously tracked moisture levels, monitored growth,
+        and moved based on its lighting needs.
 
         My primary role was as follows: 
         - Implemented a control algorithm in C using an ISR task scheduler to integrate light sensors, bump switches, cliff sensors, and the plant’s bioelectrochemical signals. 
@@ -46,8 +47,9 @@ with st.container():
 
         [Read the full report here!](https://drive.google.com/file/d/1AoFtYZdHnXTRDDR_TJbMlkY0U8Tck1EZ/view) 
     """)
+# I dried up reading the last sentence
 with st.container():
-    st.subheader("VA-NC Academic Acheivment Award | [VA-NC Alliance](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1712724&HistoricalAwards=false)")
+    st.subheader("VA-NC Academic Achievement Award | [VA-NC Alliance](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1712724&HistoricalAwards=false)")
     st.write("*Received Spring 2020*")
     st.markdown("""
         The VA-NC Alliance recognizes the academic success and leadership development of STEM students. The Academic Achievement Award aims to recognize academic excellence. It was an honor to receive this award.  
@@ -60,7 +62,7 @@ with st.container():
         st.image('images/sciencefair.png')
     with text_column:
         st.markdown("""
-            **Experiments in Caffeine: The Effect of Roasting on the Caffeine Concentration in Coffee and the Standardization of Caffiene Extraction via Anti-Solvent Crystallization**
+            **Experiments in Caffeine: The Effect of Roasting on the Caffeine Concentration in Coffee and the Standardization of Caffeine Extraction via Anti-Solvent Crystallization**
                 
             Awards received: 
             - Northern Virginia Regional Science Fair 2015, 1st Place (Chemistry)

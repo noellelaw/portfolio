@@ -12,7 +12,7 @@ page_icon = Image.open("images/bug.png")
 st.set_page_config(
     page_title='Noelle Law',
     page_icon=page_icon,
-    layout="wide", 
+    layout="wide",
 )
 
 

@@ -33,16 +33,16 @@ with st.container():
         st.markdown("""
         """)
         st.markdown("""
-        - Pursued a master’s thesis in the Data, Intelligence, and Computational Engineering lab under Prof. Chinmay Hegde with a focus on vision-language (VL) models for open-vocabulary semantic segmentation of autonomous driving datasets. A meta-analysis was performed to identify impact of training dataset, common model bottlenecks, and model-accuracy-throughput trade-ff when applied in a zero-shot setting. 
+        - Pursued a master’s thesis in the Data, Intelligence, and Computational Engineering lab under Prof. Chinmay Hegde with a focus on vision-language (VL) models for open-vocabulary semantic segmentation of autonomous driving datasets. A meta-analysis was performed to identify impact of training dataset, common model bottlenecks, and model-accuracy-throughput trade-off when applied in a zero-shot setting.
         - Implemented a new visualization technique, called Triangles, to more efficiently analyze model results.
         - Designed a context-aware region-classification architecture for open-vocabulary segmentation based on issues identified in the meta-analysis. 
-        - Explored inherent capabilities of denoising diffusion probablistic models to generate semantically meaningful regions.
+        - Explored inherent capabilities of denoising diffusion probabilistic models to generate semantically meaningful regions.
 
         View my defense slides [here](https://drive.google.com/file/d/1dKxKcTDBrLPkzgfXg1NFeKDd5ijQPanQ/view?usp=sharing) and read the full report [here](https://drive.google.com/file/d/1wvMbF-VV6zKs7vAlBgRmfmL6-rq3Uz1W/view?usp=sharing)!
         `AI/ML` `Data Science & Visualization` `Python` `PyTorch` `JavaScript D3` `High-Performance Computing`
         """)
 with st.container():
-    st.subheader("Fast, Safe, and Proactive Runtime Planning and Control of Autonomous Ground Vehiclesin Changing Environments | [IEEE Xplore](https://ieeexplore.ieee.org/document/9483719) ")
+    st.subheader("Fast, Safe, and Proactive Runtime Planning and Control of Autonomous Ground Vehicles in Changing Environments | [IEEE Xplore](https://ieeexplore.ieee.org/document/9483719) ")
     st.write("Grace Glaubit, Katie Kleeman, **Noelle Law**, Jeremiah Thomas, Shijie Gao, Rahul Peddi, Esen Yel, Nicola Bezzo | *SIEDS 2021*")
     st.write("*First 4 authors contributed equally to the paper.*")
     image_column, text_column = st.columns((2,4))
@@ -67,7 +67,7 @@ with st.container():
             `Python` `Matlab` `ROS` `Gazebo Simulation Software`
         """)
 with st.container():
-    st.subheader("The Robotany:A Cybernetic Plant ")
+    st.subheader("The Robotany: A Cybernetic Plant ")
     st.write("*September to December 2020*")
     image_column, text_column = st.columns((2,4))
     with image_column:
@@ -75,8 +75,8 @@ with st.container():
     with text_column:
         st.markdown("""
         Zachary Hicks, Jason Ashley, Eleanor Ozer and I undertook the "Robotany" that integrates embedded systems interfacing, house plant physiology, 
-        robotics and machine vision, and earned the Louis T. Rader Chairperson's Award for Best Capstone. The a cybernetic plant to track moisture levels, monitor growth, 
-        and move based on its lighting needs.
+        robotics and machine vision, and earned the Louis T. Rader Chairperson's Award for Best Capstone. This cybernetic plant autonomously tracked moisture levels, monitored growth,
+        and moved based on its lighting needs.
 
         My primary role was as follows: 
         - Implemented a control algorithm in C using an ISR task scheduler to integrate light sensors, bump switches, cliff sensors, and the plant’s bioelectrochemical signals. 
