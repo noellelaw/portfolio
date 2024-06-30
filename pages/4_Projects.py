@@ -65,7 +65,7 @@ with st.container():
 
             [Read the PDF here!](https://drive.google.com/file/d/1mPT_006Lz3W7w54uKtE_jplliXu_FtIa/view?usp=sharing) 
 
-            `Python` `Matlab` `ROS` `Gazebo Simulation Software`
+            `Python` `Matlab` `ROS` `Gazebo Simulation Software` `Clearpath Robotics Jackal UGV `
         """)
 with st.container():
     st.subheader("The Robotany: A Cybernetic Plant ")
@@ -117,6 +117,27 @@ with st.container():
     `PHP Scripting` `HTML & Webpage Design` `C++` `Arduino` `AWS` `Tableau` `MySQL`
     """)
 with st.container():
+    st.subheader("Go-to-Goal and Line-Following Competition (2nd Place)")
+    st.write("*Fall 2019*")
+    image_column, text_column = st.columns((1,5))
+    with image_column:
+        st.video('images/IMG_4017.mov')
+    with text_column:
+        st.markdown("""
+        - Autonomous robot programmed to: (1) go to various goals in an arena, implemented using PID cruise control and (2) race against worthy competitors along a track.
+        - Demonstrated vehicle kinematics/dynamics, control/behavior, and navigation/motion planning.
+        `ROS` `C++` `Clearpath Robotics TurtleBot`
+        """)
+
+with st.container():
+    st.subheader("ShopperShare Application")
+    st.write("*Fall 2019*")
+    st.markdown("""
+    - Application that enables a “Head-Shopper” to accept user grocery lists, who then shops for and delivers a user’s groceries for a proportional rate.
+    - Allows UVA students without cars to get groceries effectively, while enabling other students to earn extra money.
+    `Python` `Django` `Bootstrap4` `CSS` `HTML` `JavaScript` `Travis-CI` `Heroku`
+    """)
+with st.container():
     st.subheader("PCB Audio Visualizer")
     st.write("*Spring 2019*")
     image_column, text_column = st.columns((2,4))
@@ -124,7 +145,20 @@ with st.container():
         st.video('https://youtu.be/xkFwRU_dNgc')
     with text_column:
         st.markdown("""
-        A printed circuit board (PCB) that can filter a variety of signals and display the distribution of bass and treble through LED drivers, high / low pass filters, peak detectors, and a summing circuit.
+        A printed circuit board (PCB) that can filter a variety of signals and display the distribution of bass and treble through LED drivers, high/low pass filters, peak detectors, and a summing circuit.
 
         `PCB Design` `Signal Analysis` `Virtual Bench` `NI Multisim`
         """)
+with st.container():
+    st.subheader("Nao Robot Field Dat")
+    st.write("*Spring 2019*")
+    image_column, text_column = st.columns((1,5))
+    with image_column:
+        st.image('images/nao.png')
+    with text_column:
+        st.markdown("""
+        Programmed Nao robots to compete in corn-hole, relay racing, guessing games, and dance-offs against the corresponding graduate-level course.
+
+        `Choreograph` `Python` `Social Robotics` `Nao Robots` `Human-Computer Interaction`
+        """)
+
