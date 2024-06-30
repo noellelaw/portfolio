@@ -34,11 +34,12 @@ with st.container():
         """)
         st.markdown("""
         - Pursued a master’s thesis in the Data, Intelligence, and Computational Engineering lab under Prof. Chinmay Hegde with a focus on vision-language (VL) models for open-vocabulary semantic segmentation of autonomous driving datasets. A meta-analysis was performed to identify impact of training dataset, common model bottlenecks, and model-accuracy-throughput trade-off when applied in a zero-shot setting.
-        - Implemented a new visualization technique, called Triangles, to more efficiently analyze model results.
+        - Implemented a new visualization technique, called Triangles, to more efficiently analyze model results. Triangles aimed to support the grouped performance analysis of segmentation models, enabling practitioners to prioritize model selection or comparison.
         - Designed a context-aware region-classification architecture for open-vocabulary segmentation based on issues identified in the meta-analysis. 
         - Explored inherent capabilities of denoising diffusion probabilistic models to generate semantically meaningful regions.
 
         View my defense slides [here](https://drive.google.com/file/d/1dKxKcTDBrLPkzgfXg1NFeKDd5ijQPanQ/view?usp=sharing) and read the full report [here](https://drive.google.com/file/d/1wvMbF-VV6zKs7vAlBgRmfmL6-rq3Uz1W/view?usp=sharing)!
+        
         `AI/ML` `Data Science & Visualization` `Python` `PyTorch` `JavaScript D3` `High-Performance Computing`
         """)
 with st.container():

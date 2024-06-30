@@ -106,7 +106,7 @@ with st.container():
 # ----------------- skillset ----------------- #
 with st.container():
     st.subheader('⚒️ Highlighted Skills')
-    st.write('*Take a peek at other tabs to see full skillset.*')
+    st.write('*Take a peek at other tabs to see my full skillset.*')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1,])
     with col1:
         st_lottie(python_lottie, height=200,width=200, key="python", speed=1)

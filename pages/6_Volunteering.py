@@ -24,7 +24,7 @@ with st.container():
     with text_column:
         st.markdown("""
         APL STEM Academy provides an accessible, inclusive, and supportive place to learn. I am extremely passionate when it comes to STEM as a space for
-        all, so it has been such a pleasure to volunteer at this incredible organization.
+        all, so it has been such a pleasure to volunteer at this organization.
         - Provided active instruction to 16 middle school students in a 12 week Python for Girls II course.
         - Included the development of lectures, games, and labs. 
 
