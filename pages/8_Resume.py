@@ -28,7 +28,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # This links to a random website?
-st.write("[Click here if it's blocked by your browser](https://cognitiveclass.ai/)")
+st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1J7ZFOT7TxH3SiJU3UO9eh0MPBB5PNnG7/view?usp=sharing)")
 
 with open("images/resume.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')
