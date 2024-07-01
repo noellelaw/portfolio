@@ -27,6 +27,7 @@ with st.container():
         - Principal Investigator for Conformal Autoregressive Generation for Large Language Models, in which a multi-hypothesis-based approach is leveraged to better quantify model uncertainty. 
         - Redesigned data preprocessing pipeline, improving speed by 92% and allowing for quicker downstream model development. 
         - Selected for the [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) to develop a rapid-prototype solution for a given problem during summer 2024.   
+        
         `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Teaming`
         """)
 with st.container():
@@ -38,6 +39,7 @@ with st.container():
     - A new visualization technique, Triangles, was implemented to more efficiently analyze model results. Triangles aimed to support the grouped performance analysis of segmentation models, enabling practitioners to prioritize model selection or comparison.
     - A context-aware region classification architecture was designed for open-vocabulary segmentation based on issues identified in the meta-analysis.
     - Exploration on the inherent capabilities of denoising diffusion probabilistic models to generate semantically meaningful regions.
+    
     `Python` `Pytorch` `AI/ML/CV` `Data Science` `Javascript` `D3` `Experimental Design` `High-Performance Computing`
     """)
 with st.container():
@@ -45,6 +47,7 @@ with st.container():
     st.write("*September to December 2022*")
     st.markdown("""
     - Developed & graded homework assignments and provided active instruction to a graduate-level foundations of robotics (ROB-GY 6003) course comprised of 80+ persons.
+    
     `Matlab & Simulink` `Direct & Inverse Kinematics` `Sensors & Actuators` `Trajectory Generation & Path Planning` 
     """)
 with st.container():
@@ -58,6 +61,7 @@ with st.container():
         - Explored use of machine learning for robotic grasping operations through use of 6-DoF deep object pose estimation, in which a one-shot deep fully convolutional neural network was used as a part of a larger system.
         - Developed synthetic data pipeline and simulations of 3D depth cameras in ROS and NVIDIA Omniverse, including the development, training, and testing of datasets for 4 YCB objects for a Ford custom object.
         - Presented accomplishments to team of 30+ team, project, group members and leads.
+        
         `NVIDIA Omniverse` ` Synthetic Data Generation` `Sim2Real` `Python` `Pytorch` `AI/ML/CV` `Data Science`
         """)
 # These next two entries read almost identically, but fine for a website
@@ -72,6 +76,7 @@ with st.container():
         st.markdown("""
         - Provided active instruction to 50+ students, including the development of labs, tutorials, and weekly quizzes to ensure learning goals were met.
         - Researched and redeveloped course curriculum throughout summer 2020.
+        
         `Embedded C` `TI-RSLK MAX` `Sensors & Actuators` `Controllers` `Signal Processing` `MSP432`
         """)
 with st.container():
@@ -80,6 +85,7 @@ with st.container():
     st.markdown("""
         - Provided active instruction to 50+ students for Computer Architecture and Design (ECE 4435), including hosting weekly office hours and grading assignments to ensure learning goals were met.
         - Researched and redeveloped course curriculum throughout summer 2020.
+        
         `VHDL` `Simulation & Synthesis` 
     """)
 with st.container():
@@ -89,6 +95,7 @@ with st.container():
         - Created a hardware simulator for the embedded systems of the Extreme UV lithography light source using MATLAB, C, C++, and company-specific languages to enable more efficient feature development.
         - Tested simulator and communication interfaces using Python scripting, gtest, and gmock.
         - Contributed to all aspects of the build, test, and release cycle and presented accomplishments to 40+ team, project, and group members and leads.
+        
         `Embedded C` `C++` `Matlab & Simulink` `Python` `gtest` `gmock` 
     """)
 with st.container():
@@ -104,6 +111,7 @@ with st.container():
     st.write("*August 2018 to December 2019*")
     st.markdown("""
         - Introduction to engineering course in which I provided active instruction to 30+ students, including the development of a module for students to design and construct a solar panel.
+        
         `Circuit design` `Matlab & Simulink` `Python` 
     """)
 with st.container():
@@ -112,6 +120,7 @@ with st.container():
     st.markdown("""
         - Introduction to physics lab course for general group problem solving that teaches the application of physics to real life scenarios.
         - Provided active instruction and hosted weekly office hours to 24+ students. 
+        
         `Data Acquisition & Analysis` `Classical Mechanics & Thermodynamics`
     """)
 with st.container():

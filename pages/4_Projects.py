@@ -126,6 +126,7 @@ with st.container():
         st.markdown("""
         - Autonomous robot programmed to: (1) go to various goals in an arena, implemented using PID cruise control and (2) race against worthy competitors along a track.
         - Demonstrated vehicle kinematics/dynamics, control/behavior, and navigation/motion planning.
+        
         `ROS` `C++` `Clearpath Robotics TurtleBot`
         """)
 
@@ -135,6 +136,7 @@ with st.container():
     st.markdown("""
     - Application that enables a “Head-Shopper” to accept user grocery lists, who then shops for and delivers a user’s groceries for a proportional rate.
     - Allows UVA students without cars to get groceries effectively, while enabling other students to earn extra money.
+    
     `Python` `Django` `Bootstrap4` `CSS` `HTML` `JavaScript` `Travis-CI` `Heroku`
     """)
 with st.container():
