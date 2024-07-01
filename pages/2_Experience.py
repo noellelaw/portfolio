@@ -107,7 +107,7 @@ with st.container():
         `C++` `Python` `OpenCV` 
     """)
 with st.container():
-    st.subheader("Introduction to Engineering Teaching Assistant | [UVA](https://engineering.virginia.edu/)")
+    st.subheader("Introduction to Engineering Teaching Assistant | [University of Virginia](https://engineering.virginia.edu/)")
     st.write("*August 2018 to December 2019*")
     st.markdown("""
         - Introduction to engineering course in which I provided active instruction to 30+ students, including the development of a module for students to design and construct a solar panel.
@@ -115,7 +115,7 @@ with st.container():
         `Circuit design` `Matlab & Simulink` `Python` 
     """)
 with st.container():
-    st.subheader("General Physics for Engineers I, Workshop Teaching Assistant | [UVA](https://www.phys.virginia.edu/)")
+    st.subheader("General Physics for Engineers I, Workshop Teaching Assistant | [University of Virginia](https://www.phys.virginia.edu/)")
     st.write("*May 2018 to December 2019*")
     st.markdown("""
         - Introduction to physics lab course for general group problem solving that teaches the application of physics to real life scenarios.
