@@ -14,6 +14,7 @@ st.set_page_config(
 )
 st.header("HOBBIES")
 
+st.write("Art, running, reading, gardening, and really anything that gets me outdoors.")
 with st.container():
     col1,col2, col3, col4 = st.columns([2,2,2,2])
     with col1: 
