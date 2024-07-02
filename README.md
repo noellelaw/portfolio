@@ -1,6 +1,6 @@
 # My Portfolio
 
-My portfolio that is a work in progress, but clean enough to be hosted here: [www.noelle.io](https://www.noellelaw.io/).
+My portfolio that is a work in progress, but clean enough to be hosted here: [www.noellelaw.io](https://www.noellelaw.io/).
 
 Developed with Streamlit, deployed on streamlit cloud, passed to custom domain via iframe-ing. If (for whatever reason) you want to clone this repo and run this portfolio locally, complete the following steps: 
 
