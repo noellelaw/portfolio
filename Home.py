@@ -107,23 +107,23 @@ with st.container():
 with st.container():
     st.subheader('⚒️ Highlighted Skills')
     st.write('*Take a peek at other tabs to see my full skillset.*')
-    col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1, 1, 1, 1, 1, 1, 1, 1])
+    col1, col2, col3, col4, col5, col6, col7, col8 = st.columns([1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5])
     with col1:
-        st_lottie(python_lottie, key="python", speed=1)
+        st_lottie(python_lottie, key="python",  speed=1)
         st.markdown(f"<p style=color:#4D4545;'>Python</p>", 
                 unsafe_allow_html=True)
     with col3:
         st_lottie(ml_lottie,key="ml", speed=1)
         st.write(f"<p style=color:#4D4545;'>AI / ML / CV</p>", 
                 unsafe_allow_html=True)
-        st_lottie(datascience_lottie,key="ds", speed=1)
+        st_lottie(datascience_lottie,key="ds",  speed=1)
         st.markdown(f"<p style=color:#4D4545;'>Data Science</p>", 
                 unsafe_allow_html=True)
     with col5:
         st_lottie(sim_lottie,key="simulation", speed=1)
         st.write(f"<p style=color:#4D4545;'>Modelling & Sim</p>", 
                 unsafe_allow_html=True)
-        st_lottie(ros_lottie, key="ros", speed=1)
+        st_lottie(ros_lottie, key="ros",  speed=1)
         st.markdown(f"<p style=color:#4D4545;'>Robotics & ROS</p>", 
                 unsafe_allow_html=True)
     with col7:
