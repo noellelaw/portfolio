@@ -29,7 +29,7 @@ with st.container():
         st.image(Image.open('images/undergrad.jpeg'))
     with text_column:
         st.markdown("""
-        **Selected Coursework**: Autonomous Mobile Robots, Robotics for Software Engineers, Embedded Computing & Robotics, Data & Diversity, 
+        **Selected Coursework**: Autonomous Mobile Robots, Robotics for Software Engineers, Embedded Computing & Robotics, Data & Diversity.
         
         **Awards**: Louis T. Rader Chairperson Award for Best Capstone (2021), VA-NC Alliance Academic Achievement Award (Spring 2020) 
 
