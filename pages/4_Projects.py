@@ -152,7 +152,7 @@ with st.container():
         `PCB Design` `Signal Analysis` `Virtual Bench` `NI Multisim`
         """)
 with st.container():
-    st.subheader("Nao Robot Field Dat")
+    st.subheader("Nao Robot Field Day")
     st.write("*Spring 2019*")
     image_column, text_column = st.columns((1,5))
     with image_column:
