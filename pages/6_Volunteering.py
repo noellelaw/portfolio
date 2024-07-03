@@ -67,7 +67,7 @@ with st.container():
         st.image('images/club_dust.jpeg')
     st.markdown("""
     Club Dust aims to build houses and provide resources to extremely poor families in the border towns of Tijuana and Tecate, Mexico. They host two longer trips each year to build homes
-    with smaller day trips interspersed. Award received Summer 2015 for willingness to assist wherever there were gaps in the workflow.
+    with smaller day trips interspersed. Award received Summer 2015 for willingness to identify gaps in workflow and take-on identified tasks.
     
     As a volunteer:
     - Build, sand, and paint furniture.
