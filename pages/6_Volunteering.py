@@ -16,6 +16,22 @@ st.set_page_config(
 st.header("VOLUNTEERING")
 #local_css("style/style.css")
 with st.container():
+    st.subheader("Mentor, ASPIRE Program | [APL ASPIRE](https://secwww.jhuapl.edu/stem/aspire)")
+    st.write("*July 2024 to Present*")
+    image_column, text_column = st.columns((2,4))
+    with image_column:
+        st.video("images/aspire.mp4")
+    with text_column:
+        st.markdown("""
+        The APL ASPIRE program provides high school juniors and seniors with the opportunity to explore and experience STEM careers by pairing students 
+        with an APL staff mentor. This summer, I am mentoring a high school junior to help them learn the foundations of machine learning, experiment design, data processing, 
+        and visualization techniques where she will:
+        - Learn how to build and train a basic neural network for emotion classification.
+        - Compare trained results to vision-language model (VLM) results in a zero- and few-shot setting. 
+        - Design a series of prompts to increase performance of emotion classification results. 
+
+        """)
+with st.container():
     st.subheader("Co-Instructor, Python for Girls II | [APL STEM Academy](https://secwww.jhuapl.edu/stem/stem-academy)")
     st.write("*January 2024 to Present*")
     image_column, text_column = st.columns((2,4))
