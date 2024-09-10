@@ -16,23 +16,23 @@ st.set_page_config(
 st.header("VOLUNTEERING")
 #local_css("style/style.css")
 with st.container():
-    st.subheader("Mentor, ASPIRE Program | [APL ASPIRE](https://secwww.jhuapl.edu/stem/aspire)")
-    st.write("*July 2024 to Present*")
+    st.subheader("Fashion Industry and Healthcare Sector Specialist Volunteer | [Net Zero Tracker](https://zerotracker.net/)")
+    st.write("*September 2024 to Present*")
     image_column, text_column = st.columns((2,4))
     with image_column:
-        st.image("images/aspire.png")
+        st.video("https://www.youtube.com/watch?v=fIim8lPkhVk")
     with text_column:
         st.markdown("""
-        The APL ASPIRE program provides high school juniors and seniors with the opportunity to explore and experience STEM careers by pairing students 
-        with an APL staff mentor. This summer, I am mentoring a high school junior to help them learn the foundations of machine learning, experiment design, data processing, 
-        and visualization techniques where she will:
-        - Learn how to build and train a basic nseural network for emotion classification.
-        - Compare trained results to vision-language model (VLM) results in a zero- and few-shot setting. 
-        - Design a series of prompts to increase performance of emotion classification results. 
+        Net Zero Tracker aims to monitor and display net zero commitments from 1) nations worldwide, 2) regions within the top 25-emitting
+         countries, 3) cities with populations over half a million persons, and 4) the 2000 largest publicly listed companies.
+        
+        As a volunteer, I 
+        - Monitor and update entities in the fashion industry & health sector. 
+        - Review entity updates of other volunteers prior to publishing.                   
 
         """)
 with st.container():
-    st.subheader("Co-Instructor, Python for Girls II | [APL STEM Academy](https://secwww.jhuapl.edu/stem/stem-academy)")
+    st.subheader("Co-Instructor, Python for Girls I & II | [APL STEM Academy](https://secwww.jhuapl.edu/stem/stem-academy)")
     st.write("*January 2024 to Present*")
     image_column, text_column = st.columns((2,4))
     with image_column:
@@ -41,8 +41,27 @@ with st.container():
         st.markdown("""
         APL STEM Academy provides an accessible, inclusive, and supportive place to learn. I am extremely passionate when it comes to STEM as a space for
         all, so it has been such a pleasure to volunteer at this organization.
-        - Provided active instruction to 16 middle school students in a 12 week Python for Girls II course.
-        - Included the development of lectures, games, and labs. 
+
+        As a volunteer, I 
+        - Provide active instruction to 15 middle school students in a 12 week Python for Girls I course (FALL 2024), including the development of lectures, games, and labs.
+        - Provided active instruction to 16 middle school students in a 12 week Python for Girls II course (SPRING 2024), including the development of lectures, games, and labs.
+        - Helped transition to new coding / learning platform for Fall 2024 by writing new content and providing tutorials to other instructors on how to use new platform.                     
+
+        """)
+with st.container():
+    st.subheader("Mentor, ASPIRE Program | [APL ASPIRE](https://secwww.jhuapl.edu/stem/aspire)")
+    st.write("*July to August 2024*")
+    image_column, text_column = st.columns((2,4))
+    with image_column:
+        st.image("images/aspire.png")
+    with text_column:
+        st.markdown("""
+        The APL ASPIRE program provides high school juniors and seniors with the opportunity to explore and experience STEM careers by pairing students 
+        with an APL staff mentor. This summer, I am mentoring a high school junior to help them learn the foundations of machine learning, experiment design, data processing, 
+        and visualization techniques where she will:
+        - Learn how to build and train a basic neural network for emotion classification.
+        - Compare trained results to vision-language model (VLM) results in a zero- and few-shot setting. 
+        - Design a series of prompts to increase performance of emotion classification results. 
 
         """)
 

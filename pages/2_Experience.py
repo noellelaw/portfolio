@@ -88,6 +88,22 @@ with st.container():
         
         `VHDL` `Simulation & Synthesis` 
     """)
+
+with st.container():
+    st.subheader("Independent Research | [Autonomous Mobile Robots Lab](https://www.bezzorobotics.com/) ")
+    st.write("*August 2020 to May 2021*")
+    image_column, text_column = st.columns((2,4))
+    with image_column:
+        st.video('https://www.youtube.com/watch?v=nOg21U_vOZ8&t=60s')
+    with text_column:
+        st.markdown("""
+
+            Compared fuzzy logic, fuzzy neural networks, and neural networks to better understand trade-offs in fault detection and recovery of autonomous ground vehicles through use of MATLAB and 
+            Simulink. 
+            Actively participated in AMR lab meetings, including presenting and leading discussions on state-of-the-art research.
+            
+            `Python` `Matlab` `ROS` `Fuzzy Logic` `Fuzzy Neural Networks`
+        """)
 with st.container():
     st.subheader("Software Engineering Intern | [ASML](https://www.asml.com/en)")
     st.write("*May 2020 to August 2020*")
