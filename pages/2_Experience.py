@@ -25,6 +25,8 @@ with st.container():
         st.markdown("""
         - Design and develop algorithms for more interpretable and trustworthy machine learning systems, with focus on vision (multispectral) and language modalities. 
         - Principal Investigator for Conformal Autoregressive Generation for Large Language Models, in which a multi-hypothesis-based approach is leveraged to better quantify model uncertainty. 
+        Current efforts to be presented at the **2024 APL Intelligent Systems Symposium** 
+        and the **8th Annual AFRL AI/ML Tech Exchange Meeting**. 
         - Redesigned data preprocessing pipeline, improving speed by 92% and allowing for quicker downstream model development. 
         - Selected for the [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) to develop a rapid-prototype solution for a given problem during summer 2024.   
         

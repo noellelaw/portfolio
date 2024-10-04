@@ -96,11 +96,7 @@ with st.container():
         st.markdown(
             social_icons(30, 30, LinkedIn=linkedin_url,  Email=email_url, GitHub=github_url, ),
             unsafe_allow_html=True)
-    #st_lottie(lottie_gif, height=280, key="data")
 
-
-# ----------------- sidebar -------------------------- #
-#st.sidebar.image("images/profile.png", use_column_width=True)
         
 
 # ----------------- skillset ----------------- #

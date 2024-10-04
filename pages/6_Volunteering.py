@@ -43,7 +43,7 @@ with st.container():
         all, so it has been such a pleasure to volunteer at this organization.
 
         As a volunteer, I 
-        - Provide active instruction to 15 middle school students in a 12 week Python for Girls I course (FALL 2024), including the development of lectures, games, and labs.
+        - Provide active instruction to 25 middle school students in a 12 week Python for Girls I course (FALL 2024), including the development of lectures, games, and labs.
         - Provided active instruction to 16 middle school students in a 12 week Python for Girls II course (SPRING 2024), including the development of lectures, games, and labs.
         - Helped transition to new coding / learning platform for Fall 2024 by writing new content and providing tutorials to other instructors on how to use new platform.                     
 
