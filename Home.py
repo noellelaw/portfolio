@@ -73,7 +73,7 @@ js_lottie = load_lottieurl("https://lottie.host/fc1ad1cd-012a-4da2-8a11-0f00da67
 
 
 
-# ----------------- info ----------------- #
+# ----------------- info ------------------ #
 def gradient(color1, color2, color3, content1, content2):
     st.markdown(f'<h1 style="text-align:center;background-image: linear-gradient(to right,{color1}, {color2});font-size:60px;border-radius:2%;">'
                 f'<span style="color:{color3};">{content1}</span><br>'
