@@ -72,7 +72,6 @@ docker_lottie = load_lottieurl("https://assets4.lottiefiles.com/private_files/lf
 js_lottie = load_lottieurl("https://lottie.host/fc1ad1cd-012a-4da2-8a11-0f00da670fb9/GqPujskDlr.json")
 
 
-
 # ----------------- info ------------------ #
 def gradient(color1, color2, color3, content1, content2):
     st.markdown(f'<h1 style="text-align:center;background-image: linear-gradient(to right,{color1}, {color2});font-size:60px;border-radius:2%;">'
@@ -87,9 +86,7 @@ with st.container():
     with col1:
         gradient('F0EBE3','F6F5F2','C7B7A3',f"Hi, I'm {full_name}!", info["Intro"])
         st.write("")
-
         st.write(info['About'])
-
     with col2:
         st.image("images/profile_2.png", )
     with col3:
