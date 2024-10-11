@@ -26,8 +26,7 @@ with st.container():
     **Selected Coursework**: Artificial Intelligence, Machine Learning, Deep Learning, Robot Localization & Navigation, Visualization for Machine Learning
     
      **[Graduate Thesis](https://drive.google.com/file/d/1wvMbF-VV6zKs7vAlBgRmfmL6-rq3Uz1W/view)**: Beyond the Closed Set: Vision-Language Models for Open-Vocabulary Semantic Segmentation of Autonomous Driving Datasets. 
-        
-        *Read more about my Thesis in the projects tab!*
+     *Read more about my Thesis in the projects tab!*
     
     """)
 

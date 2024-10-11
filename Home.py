@@ -122,5 +122,3 @@ with st.container():
         st_lottie(embedded_lottie,key="embedded", speed=1)
         st.write(f"<p style=color:#4D4545;'>Embedded C / C++</p>", 
                 unsafe_allow_html=True)
-
-
