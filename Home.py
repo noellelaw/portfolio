@@ -94,7 +94,6 @@ with st.container():
             social_icons(30, 30, LinkedIn=linkedin_url,  Email=email_url, GitHub=github_url, ),
             unsafe_allow_html=True)
 
-        
 
 # ----------------- skillset ----------------- #
 with st.container():

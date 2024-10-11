@@ -13,12 +13,22 @@ st.set_page_config(
     layout="wide", 
 )
 #local_css("style/style.css")
-st.header("EDUCATION")
+st.header("EDUCATION & COURSEWORK")
 with st.container():
+    st.subheader("Stanford Online")
+    st.write("*In Progress, Fall 2024*")
+    st.markdown("""
+    **Coursework**: Transforming the Grid: AI, Renewables, Storage, EVs and Prosumers.
+    """)
     st.subheader(" New York University Tandon School of Engineering | GPA: 3.93/4.0")
     st.write("*Master of Science, Summa Cum Laude, Computer Science*, May 2023")
     st.markdown("""
     **Selected Coursework**: Artificial Intelligence, Machine Learning, Deep Learning, Robot Localization & Navigation, Visualization for Machine Learning
+    
+     **[Graduate Thesis](https://drive.google.com/file/d/1wvMbF-VV6zKs7vAlBgRmfmL6-rq3Uz1W/view)**: Beyond the Closed Set: Vision-Language Models for Open-Vocabulary Semantic Segmentation of Autonomous Driving Datasets. 
+        
+        *Read more about my Thesis in the projects tab!*
+    
     """)
 
 with st.container():
