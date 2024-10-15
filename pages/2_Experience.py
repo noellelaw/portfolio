@@ -30,7 +30,7 @@ with st.container():
         - Redesigned data preprocessing pipeline, improving speed by 92% and allowing for quicker downstream model development. 
         - Selected for the [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) to develop a rapid-prototype solution for a given problem during summer 2024.   
         
-        `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Teaming`
+        `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `T&E` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Teaming`
         """)
 with st.container():
     st.subheader("Research Assistant | [NYU DICE Lab](https://chinmayhegde.github.io/lab/)")
