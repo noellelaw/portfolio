@@ -15,7 +15,8 @@ st.set_page_config(
     layout="wide",
 )
 
-# Links (I should really update my linked in at one point </3)
+# -----------------  links  -------------------------- #
+# (I should really update my linked in at one point </3)
 linkedin_url = "https://www.linkedin.com/in/noelle-law/"
 email_url = "mailto:noelle.t.law@gmail.com"
 github_url = "https://github.com/noellelaw"

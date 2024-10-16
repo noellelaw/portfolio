@@ -31,7 +31,7 @@ with st.container():
         Current efforts to be presented at the **2024 APL Intelligent Systems Symposium** 
         and the **8th Annual AFRL AI/ML Tech Exchange Meeting**. 
         - Redesigned data preprocessing pipeline, improving speed by 92% and allowing for quicker downstream model development. 
-        - Chosen to participate in the highly competitive [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) for Summer 2024, tasked with rapidly prototyping a solution to a real-world problem. Our team successfully 
+        - Selected to participate in the highly competitive [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) for Summer 2024, and tasked with rapidly prototyping a solution to a real-world problem. Our team successfully 
         developed VISIONN, a cutting-edge system for Visibility, Identification, and Sensing using IR Optics and Neural Networks. 
         
         `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `T&E` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Interaction`
