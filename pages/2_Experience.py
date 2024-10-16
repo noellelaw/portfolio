@@ -26,7 +26,7 @@ with st.container():
         - Designed and developed advanced algorithms and innovative analysis techniques to enhance the interpretability and trustworthiness of machine learning systems, with a particular emphasis 
         on vision (multispectral) and language modalities. Notable projects include the [DARPA Triage Challenge](https://triagechallenge.darpa.mil/index), where our APL team earned the prestigious “AK” Award for outstanding contributions, 
         recognized by the DARPA Biotechnologies Office. 
-        - Presented DARPA Triage Challenge efforts at the Leading Data and AI-Enabled Organizations Workshop in collaboration with the Department of Defense’s Chief Digital Artificial Intelligence Office (CDAO) and Johns Hopkins University. 
+        - Presented DARPA Triage Challenge efforts at the **Leading Data and AI-Enabled Organizations Workshop** in collaboration with the Department of Defense’s Chief Digital Artificial Intelligence Office (CDAO) and Johns Hopkins University. 
         - Principal Investigator for Conformal Autoregressive Generation for Large Language Models, in which a multi-hypothesis-based approach is leveraged to better quantify model uncertainty. 
         Current efforts to be presented at the **2024 APL Intelligent Systems Symposium** 
         and the **8th Annual AFRL AI/ML Tech Exchange Meeting**. 
@@ -34,7 +34,7 @@ with st.container():
         - Chosen to participate in the highly competitive [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) for Summer 2024, tasked with rapidly prototyping a solution to a real-world problem. Our team successfully 
         developed VISIONN, a cutting-edge system for Visibility, Identification, and Sensing using IR Optics and Neural Networks. 
         
-        `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `T&E` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Teaming`
+        `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `T&E` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Interaction`
         """)
 with st.container():
     st.subheader("Research Assistant | [NYU DICE Lab](https://chinmayhegde.github.io/lab/)")

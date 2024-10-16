@@ -17,7 +17,7 @@ st.set_page_config(
     layout="wide", 
 )
 #local_css("style/style.css")
-st.header("RESUME")
+st.header("CV & RESUME")
 
 
 
@@ -28,7 +28,15 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # This links to a random website?
-st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1J7ZFOT7TxH3SiJU3UO9eh0MPBB5PNnG7/view?usp=sharing)")
+st.write("[Click here for CV if it's blocked by your browser](https://drive.google.com/file/d/1XV12assHltUztggATj49QGQ8R4mfIVw9/view?usp=sharing)")
+
+with open("images/NLaw_CV_2024_nocell.pdf","rb") as f:
+      base64_pdf = base64.b64encode(f.read()).decode('utf-8')
+      pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1000mm" height="1000mm" type="application/pdf"></iframe>'
+      st.markdown(pdf_display, unsafe_allow_html=True)
+
+# This links to a random website?
+st.write("[Click here for Resume if it's blocked by your browser](https://drive.google.com/file/d/1J7ZFOT7TxH3SiJU3UO9eh0MPBB5PNnG7/view?usp=sharing)")
 
 with open("images/resume.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')

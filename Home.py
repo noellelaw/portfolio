@@ -55,6 +55,7 @@ def social_icons(width=24, height=24, **kwargs):
 
     return icons_html
 
+# pull in style sheet <3
 local_css("style/style.css")
 
 # loading assets
