@@ -16,7 +16,7 @@ st.set_page_config(
 st.header("EDUCATION & COURSEWORK")
 with st.container():
     st.subheader("Stanford Online")
-    st.write("*In Progress, Fall 2024*")
+    st.write("*Fall 2024*")
     st.markdown("""
     **Coursework**: Transforming the Grid: AI, Renewables, Storage, EVs and Prosumers.
     """)
