@@ -82,7 +82,7 @@ def gradient(color1, color2, color3, content1, content2):
                 unsafe_allow_html=True)
 
 with st.container():
-    col1,col2,col3 = st.columns([6.5,2,0.5])
+    col1,col2,col3 = st.columns([6.5,1.5,0.5])
 
     full_name = info['Full_Name']
     with col1:
