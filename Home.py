@@ -37,6 +37,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
+# display social icons next to profile pic
 def social_icons(width=24, height=24, **kwargs):
     icon_template = '''
     <a href="{url}" target="_blank" style="margin-right: 20px;">
@@ -83,6 +84,7 @@ def gradient(color1, color2, color3, content1, content2):
                 unsafe_allow_html=True)
 
 with st.container():
+    # This sometimes gets a bit wonky with the iframing and screen resolution 
     col1,col2,col3 = st.columns([6.5,1.5,0.5])
 
     full_name = info['Full_Name']
