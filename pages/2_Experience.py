@@ -25,7 +25,7 @@ with st.container():
         st.markdown("""
         - Designed and developed advanced algorithms and innovative analysis techniques to enhance the interpretability and trustworthiness of machine learning systems, with a particular emphasis 
         on vision (multispectral) and language modalities. Notable projects include the [DARPA Triage Challenge](https://triagechallenge.darpa.mil/index), where our APL team earned the prestigious “AK” Award for outstanding contributions, 
-        recognized by the DARPA Biotechnologies Office. 
+        recognized by the DARPA Biotechnologies Office. Read more about the impact of this work [here](https://www.washingtonpost.com/opinions/2024/11/18/ai-darpa-disasters-robots-artificial-intelligence/)!
         - Presented DARPA Triage Challenge efforts at the **Leading Data and AI-Enabled Organizations Workshop** in collaboration with the Department of Defense’s Chief Digital Artificial Intelligence Office (CDAO) and Johns Hopkins University. 
         - Principal Investigator for Conformal Autoregressive Generation for Large Language Models, in which a multi-hypothesis-based approach is leveraged to better quantify model uncertainty. 
         Current efforts to be presented at the **2024 APL Intelligent Systems Symposium** 
