@@ -23,7 +23,7 @@ with st.container():
         st.image(Image.open('images/jhu.jpeg'))
     with text_column:
         st.markdown("""
-        - Designed and developed advanced algorithms and innovative analysis techniques to enhance the interpretability and trustworthiness of machine learning systems, with a particular emphasis 
+        - Design and develop advanced algorithms and innovative analysis techniques to enhance the interpretability and trustworthiness of machine learning systems, with a particular emphasis 
         on vision (multispectral) and language modalities. Notable projects include the [DARPA Triage Challenge](https://triagechallenge.darpa.mil/index), where our APL team earned the prestigious “AK” Award for outstanding contributions, 
         recognized by the DARPA Biotechnologies Office. Read more about the impact of this work [here](https://www.washingtonpost.com/opinions/2024/11/18/ai-darpa-disasters-robots-artificial-intelligence/)!
         - Presented DARPA Triage Challenge efforts at the **Leading Data and AI-Enabled Organizations Workshop** in collaboration with the Department of Defense’s Chief Digital Artificial Intelligence Office (CDAO) and Johns Hopkins University. 
@@ -33,6 +33,7 @@ with st.container():
         - Redesigned data preprocessing pipeline, improving speed by 92% and allowing for quicker downstream model development. 
         - Selected to participate in the highly competitive [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) for Summer 2024, and tasked with rapidly prototyping a solution to a real-world problem. Our team successfully 
         developed VISIONN, a cutting-edge system for Visibility, Identification, and Sensing using IR Optics and Neural Networks. 
+        - Test & Evaluation Lead on on applied multi-year machine learning project. 
         
         `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `T&E` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Interaction`
         """)
