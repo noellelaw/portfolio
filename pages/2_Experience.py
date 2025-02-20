@@ -16,6 +16,12 @@ def local_css(file_name):
 st.header("EXPERIENCE")
 
 with st.container():
+    st.subheader("Research Assistant | [NYU CERA Lab](https://yukimiura.org/)")
+    st.write("*Spring 2025*")
+    st.markdown("""
+    - Utilize generative AI and graph neural networks to develop physically realistic models of extreme events, such as storm surges, to provide deeper insights into their impact on vulnerable communities.
+    """)
+with st.container():
     st.subheader("Machine Learning & Perception Engineer | [JHU Applied Physics Lab](https://www.jhuapl.edu/about)")
     st.write("*August 2023 to Present*")
     image_column, text_column = st.columns((1,5))
@@ -34,6 +40,7 @@ with st.container():
         - Selected to participate in the highly competitive [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) for Summer 2024, and tasked with rapidly prototyping a solution to a real-world problem. Our team successfully 
         developed VISIONN, a cutting-edge system for Visibility, Identification, and Sensing using IR Optics and Neural Networks. 
         - Test & Evaluation Lead on on applied multi-year machine learning project. 
+        - Awarded an [IRAD](https://www.jhuapl.edu/work/impact/independent-research-and-development) grant under the Global Health Mission Area to develop next-generation wound datasets utilizing ControlNet.
         
         `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `T&E` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Interaction`
         """)
