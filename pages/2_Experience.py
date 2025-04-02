@@ -16,14 +16,17 @@ def local_css(file_name):
 st.header("EXPERIENCE")
 
 with st.container():
-    st.subheader("Research Assistant | [NYU CERA Lab](https://yukimiura.org/)")
+    st.subheader("Research Scientist | [NYU CERA Lab](https://yukimiura.org/)")
     st.write("*Spring 2025*")
     st.markdown("""
     - Utilize generative AI and graph neural networks to develop physically realistic models of extreme events, such as storm surges, to provide deeper insights into their impact on vulnerable communities.
+    - Design and develop an immersive virtual lab where participants can explore the impacts of extreme rainfall and storm surge on Lower Manhattan. Users will witness the unfolding of urban flooding, including scenarios influenced by climate change, by leveraging advanced flood modeling and interactive visualizations.
+    
+    `Optimization` `AI/ML` `Augmented Reality`
     """)
 with st.container():
     st.subheader("Machine Learning & Perception Engineer | [JHU Applied Physics Lab](https://www.jhuapl.edu/about)")
-    st.write("*August 2023 to Present*")
+    st.write("*August 2023 to Spring 2025*")
     image_column, text_column = st.columns((1,5))
     with image_column:
         st.image(Image.open('images/jhu.jpeg'))
@@ -33,14 +36,11 @@ with st.container():
         on vision (multispectral) and language modalities. Notable projects include the [DARPA Triage Challenge](https://triagechallenge.darpa.mil/index), where our APL team earned the prestigious “AK” Award for outstanding contributions, 
         recognized by the DARPA Biotechnologies Office. Read more about the impact of this work [here](https://www.washingtonpost.com/opinions/2024/11/18/ai-darpa-disasters-robots-artificial-intelligence/)!
         - Presented DARPA Triage Challenge efforts at the **Leading Data and AI-Enabled Organizations Workshop** in collaboration with the Department of Defense’s Chief Digital Artificial Intelligence Office (CDAO) and Johns Hopkins University. 
-        - Principal Investigator for Conformal Autoregressive Generation for Large Language Models, in which a multi-hypothesis-based approach is leveraged to better quantify model uncertainty. 
-        Current efforts to be presented at the **2024 APL Intelligent Systems Symposium** 
-        and the **8th Annual AFRL AI/ML Tech Exchange Meeting**. 
+        - Principal Investigator for Conformal Autoregressive Generation for Large Language Models, in which a multi-hypothesis-based approach is leveraged to better quantify model uncertainty. Current efforts to be presented at the **2024 APL Intelligent Systems Symposium** and the **8th Annual AFRL AI/ML Tech Exchange Meeting**. 
         - Redesigned data preprocessing pipeline, improving speed by 92% and allowing for quicker downstream model development. 
-        - Selected to participate in the highly competitive [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) for Summer 2024, and tasked with rapidly prototyping a solution to a real-world problem. Our team successfully 
-        developed VISIONN, a cutting-edge system for Visibility, Identification, and Sensing using IR Optics and Neural Networks. 
+        - Selected to participate in the highly competitive [BLAST annual innovation challenge](https://www.jhuapl.edu/culture/innovation) for Summer 2024, and tasked with rapidly prototyping a solution to a real-world problem. Our team successfully developed VISIONN, a cutting-edge system for Visibility, Identification, and Sensing using IR Optics and Neural Networks. 
         - Test & Evaluation Lead on on applied multi-year machine learning project. 
-        - Awarded an [IRAD](https://www.jhuapl.edu/work/impact/independent-research-and-development) grant under the Global Health Mission Area to develop next-generation wound datasets utilizing ControlNet.
+        - Awarded an [IRAD](https://www.jhuapl.edu/work/impact/independent-research-and-development) grant under the Global Health Mission Area to develop next-generation wound datasets utilizing ControlNet. I will continue this project remotely through Summer 2025.
         
         `Python` `Pytorch` `AI/ML/CV` `Data Science` `Simulation` `T&E` `Experimental Design` `LangChain` `Docker` `Git` `Human-Machine Interaction`
         """)

@@ -32,11 +32,13 @@ with st.container():
       st.image("images/hiking11.JPG")
     with col3: 
       st.image("images/painting_4.jpeg")
+      st.image("images/poem.PNG")
       st.image("images/hiking3.jpeg")
-      st.image("images/art3.jpeg")
       st.image("images/hiking5.jpeg")
+      st.image("images/art3.jpeg")
     with col4: 
-      st.image("images/plant.jpeg")
+      st.image("images/plants.jpeg")
+      st.image("images/brother.JPG")
       st.image("images/art5.png")
       st.image("images/art2.jpeg")
       st.image("images/art1.jpeg")
