@@ -33,7 +33,7 @@ with st.container():
         """)
 with st.container():
     st.subheader("Co-Instructor, Python for Girls I & II | [APL STEM Academy](https://secwww.jhuapl.edu/stem/stem-academy)")
-    st.write("*January 2024 to Present*")
+    st.write("*January 2024 to Spring 2025*")
     image_column, text_column = st.columns((2,4))
     with image_column:
         st.video("https://www.youtube.com/watch?v=ffMzq3NsB8U")
