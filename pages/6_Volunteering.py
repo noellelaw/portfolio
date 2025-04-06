@@ -68,7 +68,7 @@ with st.container():
 # I'd recommend combining the first two bullets about spreading the word / answering questions. Maybe combine them and quickly say why that is so important to do
 with st.container():
     st.subheader("Trash Talk (Waste Management) Volunteer | [JHUAPL](https://sustainability.jhu.edu/news/ask-the-green-guide-compost-on-campus/)")
-    st.write("*December 2023 to Present*")
+    st.write("*December 2023 to Spring 2025*")
     image_column, text_column = st.columns((2,4))
     with image_column:
         st.image('images/trashtalk.png')
