@@ -108,7 +108,7 @@ with st.container():
     with col1:
         st_lottie(python_lottie, key="python",  speed=1)
         st.markdown(f"<p style=color:#4D4545;'>Python</p>", 
-                unsafe_allow_html=True)
+                unsafe_allow_html=True )
     with col3:
         st_lottie(ml_lottie,key="ml", speed=1)
         st.write(f"<p style=color:#4D4545;'>AI / ML / CV</p>", 
@@ -122,8 +122,8 @@ with st.container():
                 unsafe_allow_html=True)
         st_lottie(ros_lottie, key="ros",  speed=1)
         st.markdown(f"<p style=color:#4D4545;'>Robotics & ROS</p>", 
-                unsafe_allow_html=True)
+                unsafe_allow_html=True )
     with col7:
         st_lottie(embedded_lottie,key="embedded", speed=1)
         st.write(f"<p style=color:#4D4545;'>Embedded C / C++</p>", 
-                unsafe_allow_html=True)
+                unsafe_allow_html=True )
