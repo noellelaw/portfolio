@@ -100,7 +100,7 @@ with st.container():
             unsafe_allow_html=True)
 
 
-# ----------------- skillset ----------------- #
+# ----------------- skillset, need to updat at some point ----------------- #
 with st.container():
     st.subheader('⚒️ Highlighted Skills')
     st.write('*Take a peek at other tabs to see my full skillset.*')
