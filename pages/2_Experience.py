@@ -18,12 +18,17 @@ st.header("EXPERIENCE")
 with st.container():
     st.subheader("Research Scientist | [NYU CERA Lab](https://yukimiura.org/)")
     st.write("*Spring 2025*")
-    st.markdown("""
-    - Utilize generative AI and graph neural networks to develop physically realistic models of extreme events, such as storm surges, to provide deeper insights into their impact on vulnerable communities.
-    - Design and develop an immersive virtual lab where participants can explore the impacts of extreme rainfall and storm surge on Lower Manhattan. Users will witness the unfolding of urban flooding, including scenarios influenced by climate change, by leveraging advanced flood modeling and interactive visualizations.
-    
-    `Optimization` `AI/ML` `Augmented Reality`
-    """)
+    image_column, text_column = st.columns((1,5))
+    with image_column:
+        st.image(Image.open('images/nyu1.jpeg'))
+        st.image(Image.open('images/nyu2.PNG'))
+    with text_column:
+        st.markdown("""
+        - Utilize generative AI and graph neural networks to develop physically realistic models of extreme events, such as storm surges, to provide deeper insights into their impact on vulnerable communities.
+        - Design and develop an immersive virtual lab where participants can explore the impacts of extreme rainfall and storm surge on Lower Manhattan. Users will witness the unfolding of urban flooding, including scenarios influenced by climate change, by leveraging advanced flood modeling and interactive visualizations.
+        
+        `Optimization` `AI/ML` `Augmented Reality`
+        """)
 with st.container():
     st.subheader("Machine Learning & Perception Engineer | [JHU Applied Physics Lab](https://www.jhuapl.edu/about)")
     st.write("*August 2023 to Spring 2025*")
