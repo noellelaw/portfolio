@@ -19,7 +19,7 @@ st.set_page_config(
 # -----------------  links  -------------------------- #
 # (I should really update my linked in at one point </3)
 linkedin_url = "https://www.linkedin.com/in/noelle-law/"
-email_url = "mailto:noelle.t.law@gmail.com"
+email_url = "mailto:ntl2689@nyu.edu"
 github_url = "https://github.com/noellelaw"
 
 # -----------------  loading assets  ----------------- #
@@ -96,7 +96,7 @@ with st.container():
         st.image("images/profile_2.png", )
     with col3:
         st.markdown(
-            social_icons(30, 30, LinkedIn=linkedin_url,  Email=email_url, GitHub=github_url, ),
+            social_icons(29, 29, LinkedIn=linkedin_url,  Email=email_url, GitHub=github_url, ),
             unsafe_allow_html=True)
 
 
