@@ -15,7 +15,15 @@ st.set_page_config(
 )
 #local_css("style/style.css")
 st.header("AWARDS & HONORS")
-# Wat was your solution sir?
+with st.container():
+    st.subheader("NPCC Climate Fellow | [New York City Panel on Climate Change](https://climateassessment.nyc/npcc-fellows/)")
+    st.write("*Received Spring 2025*")
+    st.markdown("""
+    Selected as a fellow to the NYC Panel on Climate Change (NPCC), an independent advisory body 
+    tasked with assessing climate science and informing policy. The NPCC provides actionable, science-based recommendations 
+    to the Mayor and City Council on how to adapt to and mitigate climate change. Fellowship work supports research that advances 
+    equitable urban resilience and helps shape the city’s long-term climate strategy.
+    """)
 with st.container():
     st.subheader("City of Tomorrow High Achiever Award | [Ford Motor Company](https://corporate.ford.com/home.html)")
     st.write("*Received Summer 2022*")
