@@ -28,7 +28,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # This links to a random website?
-st.write("[Click here for CV if it's blocked by your browser](https://drive.google.com/file/d/1XV12assHltUztggATj49QGQ8R4mfIVw9/view?usp=sharing)")
+st.write("[Click here for CV if it's blocked by your browser](https://drive.google.com/file/d/1OUaDmoAaw9bD-0DtldVNbIF39Sj2A1-z/view?usp=drive_link)")
 
 with open("images/NLaw_CV_2024_nocell.pdf","rb") as f:
       base64_pdf = base64.b64encode(f.read()).decode('utf-8')

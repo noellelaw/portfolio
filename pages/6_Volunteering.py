@@ -15,6 +15,18 @@ st.set_page_config(
 )
 st.header("VOLUNTEERING")
 #local_css("style/style.css")
+
+with st.container():
+    st.subheader("Green Team Volunteer | [HRPK](https://hudsonriverpark.org/get-involved/volunteer/hrpk-green-team/)")
+    st.write("*May 2025 to Present*")
+    image_column, text_column = st.columns((2,4))
+    with image_column:
+        st.image("images/hrpk_volunteer.png")
+    with text_column:
+        st.markdown("""
+        The Hudson River Park Green Team supports habitat restoration, native plantings, and environmental stewardship 
+        projects that enhance urban biodiversity and connect communities with green spaces.  
+        """)
 with st.container():
     st.subheader("Fashion Industry and Healthcare Sector Specialist Volunteer | [Net Zero Tracker](https://zerotracker.net/)")
     st.write("*September 2024 to Present*")

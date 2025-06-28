@@ -24,9 +24,11 @@ with st.container():
         st.image(Image.open('images/nyu2.PNG'))
     with text_column:
         st.markdown("""
-        - Utilize generative AI and graph neural networks to develop physically realistic models of extreme events, such as storm surges, to provide deeper insights into their impact on vulnerable communities.
         - Design and develop an immersive virtual lab where participants can explore the impacts of extreme rainfall and storm surge on Lower Manhattan. Users will witness the unfolding of urban flooding, including scenarios influenced by climate change, by leveraging advanced flood modeling and interactive visualizations.
-        
+        - Leverage machine learning and conventional techniques to develop a global dataset of roof materials, enhancing hazard risk mitigation efforts.
+        - Integrate generative AI and graph neural networks to produce physically realistic storm scenarios and strengthen flood impact risk analysis for high- and low-resource areas and interconnected infrastructure networks.
+        - NHERI Graduate Student Council Member.
+                    
         `Optimization` `AI/ML` `Augmented Reality`
         """)
 with st.container():

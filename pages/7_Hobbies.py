@@ -39,6 +39,7 @@ with st.container():
       st.image("images/art3.jpeg")
     with col4: 
       st.image("images/plants.jpeg")
+      st.image("images/seawall_tour.png")
       st.image("images/brother.JPG")
       st.image("images/art5.png")
       st.image("images/art2.jpeg")
