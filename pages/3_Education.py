@@ -15,8 +15,6 @@ st.set_page_config(
 #local_css("style/style.css")
 st.header("EDUCATION & COURSEWORK")
 with st.container():
-    st.subheader(" New York University Tandon School of Engineering ")
-    st.write("*Doctoral Student, Mechanical Engineering and Urban Sciences*, Fall 2025")
     st.subheader("Stanford Online")
     st.write("*Fall 2024*")
     st.markdown("""

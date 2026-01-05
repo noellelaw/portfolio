@@ -15,18 +15,13 @@ st.set_page_config(
 )
 st.header("VOLUNTEERING")
 #local_css("style/style.css")
-
 with st.container():
-    st.subheader("Green Team Volunteer | [HRPK](https://hudsonriverpark.org/get-involved/volunteer/hrpk-green-team/)")
-    st.write("*May 2025 to Present*")
-    image_column, text_column = st.columns((2,4))
-    with image_column:
-        st.image("images/hrpk_volunteer.png")
-    with text_column:
-        st.markdown("""
-        The Hudson River Park Green Team supports habitat restoration, native plantings, and environmental stewardship 
-        projects that enhance urban biodiversity and connect communities with green spaces.  
-        """)
+    st.subheader("County Wicklow Volunteer | [Wicklow Volunteer Center](https://volunteerwicklow.ie/)")
+    st.write("*December 2025 to Present*")
+    st.markdown("""
+    As a volunteer with Bray Coast Care, I contribute to community environmental initiatives focused on coastal preservation and local stewardship.            
+
+    """)
 with st.container():
     st.subheader("Fashion Industry and Healthcare Sector Specialist Volunteer | [Net Zero Tracker](https://zerotracker.net/)")
     st.write("*September 2024 to Present*")
@@ -80,7 +75,7 @@ with st.container():
 # I'd recommend combining the first two bullets about spreading the word / answering questions. Maybe combine them and quickly say why that is so important to do
 with st.container():
     st.subheader("Trash Talk (Waste Management) Volunteer | [JHUAPL](https://sustainability.jhu.edu/news/ask-the-green-guide-compost-on-campus/)")
-    st.write("*December 2023 to Spring 2025*")
+    st.write("*December 2023 to Spring 2024*")
     image_column, text_column = st.columns((2,4))
     with image_column:
         st.image('images/trashtalk.png')
@@ -106,7 +101,7 @@ with st.container():
     """)
 with st.container():
     st.subheader("Club Dust Volunteer | [Club Dust](https://www.clubdust.org/)")
-    st.write("*Winter 2013 to Present*")
+    st.write("*Winter 2007 to 2015*")
     image1_column,  image2_column, text_column, = st.columns((2,2,1))
     with image1_column:
         st.image('images/clubdust.jpeg')
@@ -114,7 +109,7 @@ with st.container():
         st.image('images/club_dust.jpeg')
     st.markdown("""
     Club Dust aims to build houses and provide resources to extremely poor families in the border towns of Tijuana and Tecate, Mexico. They host two longer trips each year to build homes
-    with smaller day trips interspersed. Award received Summer 2015 for ability to identify gaps in workflow and willingness to take-on identified tasks.
+    with smaller day trips interspersed. I joined with family at various times spanning years 2007 through present day. Award received Summer 2015 for ability to identify gaps in workflow and willingness to take-on identified tasks.
     
     As a volunteer:
     - Build, sand, and paint furniture.
@@ -143,9 +138,9 @@ with st.container():
     """)
 with st.container():
     st.subheader("Serving Seniors Volunteer | [Serving Seniors](https://servingseniors.org/get-involved/volunteer.html/title/nutrition-support)")
-    st.write("*Summer 2011 to Spring 2023*")
+    st.write("*Summer 2011 to Summer 2013, Summer 2023*")
     st.markdown("""
-    As a volunteer, I would help provide nutrition support and spend time with seniors to help provide a sense of community.
+    As a volunteer, I would help provide nutrition support and spend time with seniors to help provide a sense of community. 
     """)
 
 

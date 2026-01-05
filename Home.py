@@ -18,8 +18,8 @@ st.set_page_config(
 
 # -----------------  links  -------------------------- #
 # (I should really update my linked in at one point </3)
-linkedin_url = "https://www.linkedin.com/in/noelle-law/"
-email_url = "mailto:ntl2689@nyu.edu"
+#linkedin_url = "https://www.linkedin.com/in/noelle-law/"
+email_url = "mailto:noelle.t.law@gmail.com"
 github_url = "https://github.com/noellelaw"
 
 # -----------------  loading assets  ----------------- #
@@ -48,7 +48,7 @@ def social_icons(width=24, height=24, **kwargs):
     icons_html = ""
     for name, url in kwargs.items():
         icon_src = {
-            "linkedin": "https://img.icons8.com/ios/50/linkedin.png",
+            #"linkedin": "https://img.icons8.com/ios/50/linkedin.png",
             "github": "https://img.icons8.com/ios/50/github--v1.png",
             "email": "https://img.icons8.com/ios/50/new-post--v1.png"
         }.get(name.lower())
@@ -96,7 +96,7 @@ with st.container():
         st.image("images/profile_2.png", )
     with col3:
         st.markdown(
-            social_icons(29, 29, LinkedIn=linkedin_url,  Email=email_url, GitHub=github_url, ),
+            social_icons(29, 29, Email=email_url, GitHub=github_url, ),
             unsafe_allow_html=True)
 
 

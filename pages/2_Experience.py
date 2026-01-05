@@ -14,32 +14,15 @@ def local_css(file_name):
         st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 #local_css("style/style.css")
 st.header("EXPERIENCE")
-
-with st.container():
-    st.subheader("Research Scientist | [NYU CERA Lab](https://yukimiura.org/)")
-    st.write("*Spring 2025*")
-    image_column, text_column = st.columns((1,5))
-    with image_column:
-        st.image(Image.open('images/nyu1.jpeg'))
-        st.image(Image.open('images/nyu2.PNG'))
-    with text_column:
-        st.markdown("""
-        - Design and develop an immersive virtual lab where participants can explore the impacts of extreme rainfall and storm surge on Lower Manhattan. Users will witness the unfolding of urban flooding, including scenarios influenced by climate change, by leveraging advanced flood modeling and interactive visualizations.
-        - Leverage machine learning and conventional techniques to develop a global dataset of roof materials, enhancing hazard risk mitigation efforts.
-        - Integrate generative AI and graph neural networks to produce physically realistic storm scenarios and strengthen flood impact risk analysis for high- and low-resource areas and interconnected infrastructure networks.
-        - NHERI Graduate Student Council Member.
-                    
-        `Optimization` `AI/ML` `Augmented Reality`
-        """)
 with st.container():
     st.subheader("Machine Learning & Perception Engineer | [JHU Applied Physics Lab](https://www.jhuapl.edu/about)")
-    st.write("*August 2023 to Spring 2025*")
+    st.write("*August 2023 to Spring 2025, TOC September 2025*")
     image_column, text_column = st.columns((1,5))
     with image_column:
         st.image(Image.open('images/jhu.jpeg'))
     with text_column:
         st.markdown("""
-        - Design and develop advanced algorithms and innovative analysis techniques to enhance the interpretability and trustworthiness of machine learning systems, with a particular emphasis 
+        - Design and develop algorithms and analysis techniques to aid the interpretability and trustworthiness of machine learning systems, with emphasis 
         on vision (multispectral) and language modalities. Notable projects include the [DARPA Triage Challenge](https://triagechallenge.darpa.mil/index), where our APL team earned the prestigious “AK” Award for outstanding contributions, 
         recognized by the DARPA Biotechnologies Office. Read more about the impact of this work [here](https://www.washingtonpost.com/opinions/2024/11/18/ai-darpa-disasters-robots-artificial-intelligence/)!
         - Presented DARPA Triage Challenge efforts at the **Leading Data and AI-Enabled Organizations Workshop** in collaboration with the Department of Defense’s Chief Digital Artificial Intelligence Office (CDAO) and Johns Hopkins University. 
